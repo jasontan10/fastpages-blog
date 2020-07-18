@@ -91,7 +91,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -438,7 +438,7 @@ window.onload = wrap_img;
     <span class="s1">'</span><span class="si">{:,.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">tennis_ave_yearly_delta</span><span class="p">)),</span>
     <span class="s1">'</span><span class="si">{:,.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">est_year_expense</span><span class="p">[</span><span class="s1">'2020'</span><span class="p">])),</span>
     <span class="s1">'</span><span class="si">{:,.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">est_total_collection</span><span class="p">[</span><span class="s1">'2020'</span><span class="p">]),</span>
-    <span class="s1">'</span><span class="si">{:,.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">est_tennis_percentage</span><span class="p">))</span>
+    <span class="s1">'</span><span class="si">{:,.2f}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">est_tennis_percentage</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
 <span class="p">]</span>
 </pre></div>
 
@@ -449,18 +449,56 @@ window.onload = wrap_img;
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered">
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>By removing tennis courts, NGA will save around <strong> php</strong> per year.<br>
-The estimated yearly expenses amount to <strong> php</strong> per year during quarantine.<br>
-The estimated yearly collection amount to <strong> php</strong>.<br>
-Therefore, estimated yearly collection is projected to be <strong>higher</strong> than estimated yearly expenses.<br>
-If we remove the tennis court, then the cash balance would increase by about <strong></strong> per annum</p>
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span>
+<span class="sd">'''</span>
+<span class="sd">By removing tennis courts, NGA will save around {} php per year.</span>
+<span class="sd">The estimated yearly expenses amount to {} php per year during quarantine.</span>
+<span class="sd">The estimated yearly collection amount to {} php.</span>
+<span class="sd">Therefore, estimated yearly collection is projected to be higher than estimated yearly expenses.</span>
+<span class="sd">If we remove the tennis court, then the cash balance would increase by about {}% per annum</span>
+<span class="sd">'''</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+    <span class="n">result_values</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="n">result_values</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+    <span class="n">result_values</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span>
+    <span class="n">result_values</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+By removing tennis courts, NGA will save around 73,235.95 php per year.
+The estimated yearly expenses amount to 22,144,906.40 php per year during quarantine.
+The estimated yearly collection amount to 25,382,727.22 php.
+Therefore, estimated yearly collection is projected to be higher than estimated yearly expenses.
+If we remove the tennis court, then the cash balance would increase by about 2.26% per annum
+
+</pre>
+</div>
+</div>
 
 </div>
 </div>
+
 </div>
+    
+
 </div>
 
 
