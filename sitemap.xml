@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/markdown/2020/01/14/test-markdown-post.html</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/markdown/2020/01/14/test-markdown-post.html</loc>
 <lastmod>2020-01-14T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/jupyter/2020/02/20/test.html</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/jupyter/2020/02/20/test.html</loc>
 <lastmod>2020-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/about/</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/fastpages/jupyter/nga/tennis/financial/2020/07/18/NGA-Tennis-Calculation.html</loc>
+<lastmod>2020-07-18T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/about/</loc>
 </url>
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/search/</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/</loc>
 </url>
 <url>
-<loc>https://jasontan10.github.io/nga-tennis-calculation/categories/</loc>
+<loc>https://jasontan10.github.io/fastpages-blog/search/</loc>
+</url>
+<url>
+<loc>https://jasontan10.github.io/fastpages-blog/categories/</loc>
 </url>
 </urlset>
